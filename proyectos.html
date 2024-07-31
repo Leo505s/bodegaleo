@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>proyectos</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="shortcut icon" href="/img/logoalcaldia.png" type="image/x-icon">
+</head>
+<body>
+	<div class="gestemp">
+		<h1 >GESTION DE PROYECTOS</h1>
+
+	</div>
+	
+	<main>
+		<form action="" class="formulario" id="formulario">
+			<!-- Grupo: nommbre proyecto -->
+			<div class="formulario__grupo" id="grupo__usuario">
+				<label for="usuario" class="formulario__label">Nombre Proyecto</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="Nombre p" placeholder="Nombre proyect">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El proyecto tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Descripcion -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Descripcion</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Descrip">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La Descripcion tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+<!-- Grupo: Lugar-->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label"> Ubicado</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="lugar">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error"> La ubicacion tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+			<!-- Grupo: Area -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Area</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="area">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El area tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Fecha inicio-->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Fecha Inicio</label>
+				<div class="formulario__grupo-input">
+					<input type="date" class="formulario__input" name="nombre" id="nombre" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Elegir una fecha.</p>
+			</div>
+			<!-- Grupo: Fecha fin-->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Fecha Fin</label>
+				<div class="formulario__grupo-input">
+					<input type="date" class="formulario__input" name="nombre" id="nombre" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Elegir una fecha.</p>
+			</div>
+
+
+			
+			<!-- Grupo: Estado -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Estado</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Estado">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Guadar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+			<a href="/principal.html"> INICIO</a>
+		</form>
+	</main>
+
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
